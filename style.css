@@ -1,3 +1,4 @@
+/* Vertical Navigation Bar */
 .vertnavbar {
     list-style-type: none;
     /* Removes the bullets. A navigation bar does not need list markers */
@@ -7,7 +8,7 @@
     width: 10%;
     /* Width of the navbar */
     background-color: #f1f1f1;
-    height: 100%;
+    height:100%;
     /* Full height */
     position: fixed;
     /* Make it stick, even on scroll */
@@ -15,17 +16,17 @@
     /* Enable scrolling if the sidenav has too much content */
 }
 
-li a {
-    display: block;
+.vertnavbar li a{
+display: block;
     /* Displaying the links as block elements makes the whole link area clickable (not just the text),
         and it allows us to specify the width (and padding, margin, height, etc. if you want) */
     color: #000;
-    
+
     padding: 8px 16px;
     text-decoration: none;
 }
 
-li a.active {
+.vertnavbar li a.active {
     background-color: #04AA6D;
     color: white;
 }
@@ -33,8 +34,13 @@ li a.active {
 
 
 
-li a:hover:not(.active) {
+.vertnavbar li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
 /* This is to costumize the not active links in the list on hover */
+
+/* Horizontal Navigation Bar */
+.horiznavbar li {
+ display: inline;
+}
