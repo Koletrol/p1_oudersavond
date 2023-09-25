@@ -75,3 +75,24 @@ display: block;
 .active {
     background-color: #04AA6D;
 }
+
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    border: 1px solid #000000; /* Adjust border color and width as needed */
+    padding: 20px; /* Optional padding for the form container */
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #ccc; /* Adjust line color and width as needed */
+    margin: 10px 0; /* Optional margin to separate lines from content */
+}
+
+.space {
+    border: none;
+    margin: 3px 0; /* Optional margin to separate lines from content */
+}

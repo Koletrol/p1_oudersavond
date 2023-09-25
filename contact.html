@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oudersavond</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="vertnavbar">
+        <ul class="vertnavbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a class="active"  href="contact.html">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+        
+    <nav class="horiznavbar">
+        <ul class="horiznavbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="introduction.html">We zijn we</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="results.html" method="post">
+            <label for="name"> Naam </label>
+            <input type="text" name="name" id="name" placeholder="naam" pattern="[^0-9]+" required>
+        
+            <label for="message"> Bericht </label>
+            <input type="text" name="message" id="message" placeholder="Bericht" pattern="[^0-9]+" required>
+        <hr>
+
+            <label for="email"> E-mail </label>
+            <input type="email" name="email" id="email" required value="email">
+        
+            <button type="reset" name="reset" id="reset"> Reset </button>
+            <button type="submit" name="submit" id="submit"> Opsturen </button>
+        </form>
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
