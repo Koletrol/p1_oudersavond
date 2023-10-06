@@ -65,7 +65,9 @@ nav a {
   justify-content: space-evenly;
 }
 nav a:hover {
-  text-decoration: underline;
+  transition: 0.5s;
+  background-color:  rgb(70, 104, 76);
+  padding: 0.2rem;
 }
 
 .joestarimg {
