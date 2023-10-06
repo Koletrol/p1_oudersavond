@@ -3,12 +3,32 @@
   margin: 0;
 }
 
+/* Styling */
+.bold {
+  font-weight: bold;
+}
 /* Header */
 
 header {
   min-height: 10vh;
   
 }
+
+/* Footer */
+footer {
+  display: flex;
+  background-color: forestgreen;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
+
+
 
 /* Horizontal Navigation Bar */
 
@@ -37,14 +57,15 @@ nav a {
   color: white;
   text-decoration: none;
 }
-
 .center {
   display: flex;
   justify-content: space-evenly;
 }
+nav a:hover {
+  text-decoration: underline;
+}
 
 /* Dropdown */
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -61,7 +82,7 @@ nav a {
   color: black;
   display: flex;
   text-align: left;
-  padding: 0.5rem 0.5em;
+  padding: 0.5rem 0.5rem;
 }
 
 .dropdown:hover .dropdown-content {
@@ -117,4 +138,49 @@ button {
 
 label {
   margin: 0.5rem 0rem 0rem 0rem;
+}
+
+/* Index pagina */
+
+.wat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.watP {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+.lih1 {
+  text-align: center;
+}
+
+.lip {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.fulllist {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 0.5rem;
+}
+
+.voorsteling {
+  border
+}
+
+ul {
+  list-style-type: none;
+}
+
+.square {
+  border-style: solid;
+  padding: 2rem;
 }
