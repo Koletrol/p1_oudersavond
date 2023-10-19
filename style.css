@@ -220,3 +220,26 @@ ul {
   height: 15rem;
   border-radius: 8px;
 }
+
+/* Telmo Voorstel */
+
+.Telmo-voorstel{
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
+  gap: 8rem;
+}
+
+.Title-Telmo {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.creed-img {
+  width: 30rem;
+  height: 25rem;
+  border-radius: 8px;
+}
