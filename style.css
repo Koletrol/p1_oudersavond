@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
 }
 
 body {
@@ -16,13 +15,13 @@ body {
 /* Header */
 header {
   min-height: 10vh;
-
+  
 }
 
 /* Footer */
 footer {
   display: flex;
-  background-color: rgb(108, 114, 129);
+  background-color:rgb(108,114,129);
   color: white;
   padding: 1rem;
   text-align: center;
@@ -41,13 +40,12 @@ nav {
   display: flex;
   margin: auto;
   padding: 0.5rem;
-  background-color: rgb(91, 138, 100);
+  background-color: rgb(91,138,100);
   position: fixed;
   width: 100%;
   align-items: center;
   flex-wrap: wrap;
 }
-
 nav ul {
   display: flex;
   align-items: center;
@@ -55,28 +53,23 @@ nav ul {
   width: 100%;
   justify-content: space-between;
 }
-
 nav li {
   font-size: 1rem;
   padding: 0 2rem 0 1rem;
 }
-
 nav a {
   color: white;
   text-decoration: none;
 }
-
 .center {
   display: flex;
   justify-content: space-evenly;
 }
-
 nav a:hover {
   transition: 0.5s;
-  background-color: rgb(70, 104, 76);
+  background-color:  rgb(70, 104, 76);
   padding: 0.2rem;
 }
-
 .joestarimg {
   width: 3.5rem;
 }
@@ -112,12 +105,12 @@ nav a:hover {
 .dropdown:hover .dropbtn {
   display: flex;
   color: black;
-  background-color: rgb(244, 202, 48);
+  background-color: rgb(244,202,48);
   transition: 0.3s;
 }
 
 .dropdownitem:hover {
-  background-color: rgb(244, 202, 48);
+  background-color: rgb(244,202,48);
   transition: 0.3s;
 }
 
@@ -199,7 +192,7 @@ ul {
 .square {
   border-style: solid;
   padding: 1rem 5rem 7rem 5rem;
-  background-color: rgb(132, 115, 84);
+  background-color: rgb(132,115,84);
   color: white;
   border-color: black;
 }
@@ -211,7 +204,7 @@ ul {
 
 /*Haktan Voorstel */
 
-.haktan-voorstel {
+.haktan-voorstel{
   display: flex;
   margin-left: 10%;
   margin-right: 10%;
@@ -224,7 +217,7 @@ ul {
   justify-content: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
-
+  
 }
 
 .dyinglightimg {
@@ -233,108 +226,25 @@ ul {
   border-radius: 8px;
 }
 
-/* Opleiding pagina */
+/* Telmo Voorstel */
 
-.opleidingLM {
+.Telmo-voorstel{
   display: flex;
-  margin: 0 10%;
-  padding: 5% 10%;
-  align-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
+  gap: 8rem;
+}
+
+.Title-Telmo {
+  display: flex;
   justify-content: center;
-  background-color: rgb(132, 115, 84);
-  color: white;
-  border-style: solid;
-  border-color: black;
-  background-image: url(img/ruthsbookshelf.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-.opleidingLM a {
-  padding: 5%;
-  color: white;
-  text-decoration: underline;
-  font-size: 32px;
-}
-
-.opleidingExamens {
-  display: flex;
-  margin: 2% 10%;
-  padding: 5%;
-  justify-content: space-between;
-  flex-direction: row;
-  background-color: rgb(132, 115, 84);
-  color: white;
-  border-style: solid;
-  border-color: black;
-  gap: 2rem;
-}
-
-.opleidingExamens img {
-  width: 50%;
-
-}
-
-.opleidingExamens a {
-  width: 50%;
-  font-size: 16px;
-
-}
-
-.opleidingExamens p {
-  font-size: 16px;
-}
-
-
-.opleidingStage {
-  display: flex;
-  margin: 2% 10%;
-  padding: 5%;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-  background-color: rgb(132, 115, 84);
-  color: white;
-  border-style: solid;
-  border-color: black;
-  gap: 2rem;
-}
-
-.opleidingStage img {
-  width: 50%;
-
-}
-
-.opleidingStage a {
-  width: 50%;
-  font-size: 16px;
-
-}
-
-.opleidingStage p {
-  font-size: 16px;
-}
-
-.opleidingNO {
-  display: flex;
-  margin: 2% 10% 10%;
-  padding: 5%;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 10rem;
-  background-color: rgb(132, 115, 84);
-  color: white;
-  border-style: solid;
-  border-color: black;
-  font-size: 16px;
-}
-
-/* Leermiddelen */
-
-.sectionLM {
-  display: flex;
-  margin: 0% 5% 0% 5%;
-  flex-direction: column;
-  justify-content: space-between;
+.creed-img {
+  width: 30rem;
+  height: 25rem;
+  border-radius: 8px;
 }
