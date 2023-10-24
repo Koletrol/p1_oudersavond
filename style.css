@@ -204,6 +204,11 @@ ul {
   border-color: black;
 }
 
+.indexli a {
+  text-decoration: none;
+  color: white;
+}
+
 /*Haktan Voorstel */
 
 .haktan-voorstel {
