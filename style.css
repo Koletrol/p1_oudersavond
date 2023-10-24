@@ -248,3 +248,109 @@ ul {
   height: 25rem;
   border-radius: 8px;
 }
+
+/* Opleiding pagina */
+
+.opleidingLM {
+  display: flex;
+  margin: 0 10%;
+  padding: 5% 10%;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(132, 115, 84);
+  color: white;
+  border-style: solid;
+  border-color: black;
+  background-image: url(img/ruthsbookshelf.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.opleidingLM a {
+  padding: 5%;
+  color: white;
+  text-decoration: underline;
+  font-size: 32px;
+}
+
+.opleidingExamens {
+  display: flex;
+  margin: 2% 10%;
+  padding: 5%;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: rgb(132, 115, 84);
+  color: white;
+  border-style: solid;
+  border-color: black;
+  gap: 2rem;
+}
+
+.opleidingExamens img {
+  width: 50%;
+
+}
+
+.opleidingExamens a {
+  width: 50%;
+  font-size: 16px;
+
+}
+
+.opleidingExamens p {
+  font-size: 16px;
+}
+
+
+.opleidingStage {
+  display: flex;
+  margin: 2% 10%;
+  padding: 5%;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  background-color: rgb(132, 115, 84);
+  color: white;
+  border-style: solid;
+  border-color: black;
+  gap: 2rem;
+}
+
+.opleidingStage img {
+  width: 50%;
+
+}
+
+.opleidingStage a {
+  width: 50%;
+  font-size: 16px;
+
+}
+
+.opleidingStage p {
+  font-size: 16px;
+}
+
+.opleidingNO {
+  display: flex;
+  margin: 2% 10% 10%;
+  padding: 5%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10rem;
+  background-color: rgb(132, 115, 84);
+  color: white;
+  border-style: solid;
+  border-color: black;
+  font-size: 16px;
+}
+
+/* Leermiddelen */
+
+.sectionLM {
+  display: flex;
+  margin: 0% 5% 0% 5%;
+  flex-direction: column;
+  justify-content: space-between;
+}
