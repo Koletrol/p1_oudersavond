@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body {
@@ -15,13 +16,12 @@ body {
 /* Header */
 header {
   min-height: 10vh;
-  
 }
 
 /* Footer */
 footer {
   display: flex;
-  background-color:rgb(108,114,129);
+  background-color: rgb(108, 114, 129);
   color: white;
   padding: 1rem;
   text-align: center;
@@ -32,15 +32,13 @@ footer {
   margin: 0;
 }
 
-
-
 /* Horizontal Navigation Bar */
 
 nav {
   display: flex;
   margin: auto;
   padding: 0.5rem;
-  background-color: rgb(91,138,100);
+  background-color: rgb(91, 138, 100);
   position: fixed;
   width: 100%;
   align-items: center;
@@ -67,13 +65,12 @@ nav a {
 }
 nav a:hover {
   transition: 0.5s;
-  background-color:  rgb(70, 104, 76);
+  background-color: rgb(70, 104, 76);
   padding: 0.2rem;
 }
 .joestarimg {
   width: 3.5rem;
 }
-
 
 /* Dropdown */
 .dropdown-content {
@@ -105,12 +102,12 @@ nav a:hover {
 .dropdown:hover .dropbtn {
   display: flex;
   color: black;
-  background-color: rgb(244,202,48);
+  background-color: rgb(244, 202, 48);
   transition: 0.3s;
 }
 
 .dropdownitem:hover {
-  background-color: rgb(244,202,48);
+  background-color: rgb(244, 202, 48);
   transition: 0.3s;
 }
 
@@ -181,10 +178,6 @@ label {
   padding: 0.5rem;
 }
 
-.voorsteling {
-  border
-}
-
 ul {
   list-style-type: none;
 }
@@ -192,7 +185,7 @@ ul {
 .square {
   border-style: solid;
   padding: 1rem 5rem 7rem 5rem;
-  background-color: rgb(132,115,84);
+  background-color: rgb(132, 115, 84);
   color: white;
   border-color: black;
 }
@@ -204,7 +197,7 @@ ul {
 
 /*Haktan Voorstel */
 
-.haktan-voorstel{
+.haktan-voorstel {
   display: flex;
   margin-left: 10%;
   margin-right: 10%;
@@ -217,7 +210,6 @@ ul {
   justify-content: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  
 }
 
 .dyinglightimg {
@@ -228,7 +220,7 @@ ul {
 
 /* Telmo Voorstel */
 
-.Telmo-voorstel{
+.Telmo-voorstel {
   display: flex;
   margin-left: 10%;
   margin-right: 10%;
@@ -289,19 +281,19 @@ ul {
 
 .opleidingExamens img {
   width: 50%;
-
 }
 
 .opleidingExamens a {
   width: 50%;
   font-size: 16px;
-
+  text-decoration: none;
+  color: rgb(203, 194, 194);
+  font-weight: bolder;
 }
 
 .opleidingExamens p {
   font-size: 16px;
 }
-
 
 .opleidingStage {
   display: flex;
@@ -318,13 +310,14 @@ ul {
 
 .opleidingStage img {
   width: 50%;
-
 }
 
 .opleidingStage a {
   width: 50%;
   font-size: 16px;
-
+  text-decoration: none;
+  color: rgb(203, 194, 194);
+  font-weight: bolder;
 }
 
 .opleidingStage p {
@@ -337,8 +330,8 @@ ul {
   padding: 5%;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
-  gap: 10rem;
+  justify-content: space-between;
+  gap: 3rem;
   background-color: rgb(132, 115, 84);
   color: white;
   border-style: solid;
@@ -350,7 +343,26 @@ ul {
 
 .sectionLM {
   display: flex;
-  margin: 0% 5% 0% 5%;
   flex-direction: column;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0% 5% 0% 5%;
+}
+
+.mainLM h1 {
+  text-align: center;
+}
+.mainLM {
+  color: black;
+  border: 2px;
+  border-color: black;
+  border-style: dashed;
+  margin: 2rem 15rem;
+  padding: 1rem;
+}
+
+.mainLM img {
+  width: 10rem;
+  padding-left: 45%;
 }
